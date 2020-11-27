@@ -1,0 +1,33 @@
+CHRIST
+              { 
+              font-size:80%; 
+              margin:0.5em; 
+              font-family: Verdana; 
+              display:block; 
+              } 
+CS { 
+              display:block;  
+              border: 1px solid silver; 
+              margin:0.5em;  
+              padding:0.5em;  
+              background-color:whitesmoke; 
+              } 
+STU-NAME, STU-BRANCH, STU-COLLEGE, STU-EMAIL { 
+                                 display:block; 
+                                 text-align:center; 
+                                 } 
+STU-NAME { 
+     color:green;  
+     text-decoration: underline  ; 
+     font-weight:bolder; 
+     font-size:20px; 
+     } 
+STU-BRANCH { 
+       color:green
+       } 
+STU-COLLEGE { 
+       color:brown 
+       } 
+STU-EMAIL { 
+       color:blue
+       } 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="xml/xmlcss.css"?> 
+<CHRIST>
+	<CS>
+		<STU-NAME>Mads Midelson</STU-NAME>
+		<STU-BRANCH>CSE</STU-BRANCH>
+		<STU-COLLEGE>Christ</STU-COLLEGE>
+		<STU-EMAIL>madsmidelson@cse.christuniversity.in</STU-EMAIL>
+	</CS>
+	<CS>
+		<STU-NAME>Keanu Reevs</STU-NAME>
+		<STU-BRANCH>MCA</STU-BRANCH>
+		<STU-COLLEGE>VNSGU</STU-COLLEGE>
+		<STU-EMAIL>keanureevs@mca.vnsgu.in</STU-EMAIL>
+	</CS>
+	<CS>
+		<STU-NAME>Lisa Su</STU-NAME>
+		<STU-BRANCH>EE</STU-BRANCH>
+		<STU-COLLEGE>IIT-M</STU-COLLEGE>
+		<STU-EMAIL>lisasu@ee.iitm.in</STU-EMAIL>
+	</CS>
+</CHRIST>
