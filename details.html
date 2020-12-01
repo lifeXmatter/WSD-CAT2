@@ -53,15 +53,22 @@
 
 <div class="container">
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
 <div class="btn-block">
 <button type="button" onclick="loadDoc()">Fetch Student, College Name Data</button>
+</div></div>
+<div class="col-md-4"></div>
 </div>
 <br><br>
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
 <table border="5" bordercolor="white" id="demo" style="color:white; background:#151617"></table>
 </div>
+<div class="col-md-4"></div>
 </div>
-<div>
+</div>
 
 <footer>
 <a href="https://www.christuniversity.in/" target="_blank"><p><img src="images/christ_logo.png" width="250	" height="80" class="d-inline-block align-top" alt="logo"></p></a>
@@ -87,7 +94,7 @@ function myFunction(xml) {
     table += "<tr><td>" +
     x[i].getElementsByTagName("STU-NAME")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("STU-BRANCH")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("STU-COLLEGE")[0].childNodes[0].nodeValue +
     "</td></tr>";
   }
   document.getElementById("demo").innerHTML = table;
